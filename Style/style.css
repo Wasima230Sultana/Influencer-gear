@@ -1,0 +1,50 @@
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-title{
+   font-size: 24px; 
+    font-weight: bold; 
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+.nav-link{
+    display: flex;
+}
+#manu{
+    visibility: hidden;
+}
+
+@media screen and (max-width:576px){
+    .nav-link{
+        visibility: hidden;
+    }
+    #manu,#shop{
+        visibility: visible;
+    }
+    #manu{
+        
+    }
+    .nav-title{
+        font-size: 16px;
+        margin-left: 250px;
+    }
+    
+    
+}
