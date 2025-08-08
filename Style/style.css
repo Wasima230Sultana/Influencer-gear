@@ -145,6 +145,14 @@ color: #787885;
     border-radius: 0px;
     border: none;
 }
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #191427;
+    color: #FFFFFF;
+    padding: 10px;
+}
 @media screen and (max-width:576px) {
     #shop,#manu{
         visibility: visible;
