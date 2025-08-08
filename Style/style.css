@@ -86,6 +86,33 @@
     padding-bottom: 5px;
     padding-top: 5px;
 }
+.card{
+    margin-top: 100px;
+}
+.card-set{
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+    height: 420px;
+    box-shadow: 0 0px 40px 0 rgba(0, 0, 0, 15%);
+}
+.card-set h2{
+    font-weight: 600;
+    font-size: 28px;
+margin-top: -10px;
+}
+.card-set h5{
+    font-size: 24px;
+    margin-top: -20px;
+    margin-bottom: 18px;
+}
+.card-set p{
+  font-size: 14px;  
+  font-weight: bold;
+margin-top: -10px;
+color: #787885;
+}
+
 @media screen and (max-width:576px) {
     #shop,#manu{
         visibility: visible;
